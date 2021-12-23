@@ -24,9 +24,9 @@ Once the windows loads, open up the model and adjust the criteria on the left. C
 
 ## Other projects based on OpenFlows Water and/or WaterObjects.NET
 
-* [Bing Background Adder]([http://#](https://github.com/worthapenny/OpenFlows-Water--BingBackground))
-* [Model Merger]([http://#](https://github.com/worthapenny/OpenFlows-Water--ModelMerger))
-* [Isolation Valve Adder]([http://#](https://github.com/worthapenny/OpenFlows-Water--IsolationValveAdder))
+* [Bing Background Adder](https://github.com/worthapenny/OpenFlows-Water--BingBackground)
+* [Model Merger](https://github.com/worthapenny/OpenFlows-Water--ModelMerger)
+* [Isolation Valve Adder](https://github.com/worthapenny/OpenFlows-Water--IsolationValveAdder)
 
 ## Did you know?
 
