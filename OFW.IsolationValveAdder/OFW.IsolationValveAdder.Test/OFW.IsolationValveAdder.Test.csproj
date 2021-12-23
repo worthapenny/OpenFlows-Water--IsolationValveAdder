@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F834C273-2424-4079-BB2A-945DBCC07038}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OFW.IsolationValveAdder.Test</RootNamespace>
+    <AssemblyName>OFW.IsolationValveAdder.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\Output\$(AssemblyName)\obj</BaseIntermediateOutputPath>
+    <OutputPath>$(SolutionDir)..\Output\$(AssemblyName)\bin\$(Platform)\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <OutputPath>..\..\Output\AppTest\bin\x64\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Haestad.Calculations.Pressure">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Calculations.Pressure.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Calculations.Pressure.ResultsReader">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Calculations.Pressure.ResultsReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Calculations.Scada.Domain">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Calculations.Scada.Domain.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Calculations.Scada.ScadaReader">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Calculations.Scada.ScadaReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Calculations.Support">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Calculations.Support.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Domain">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Domain.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Domain.DataObjects">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Domain.DataObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Domain.DataObjects.Water">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Domain.DataObjects.Water.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Domain.ModelingObjects">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Domain.ModelingObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Domain.ModelingObjects.Water">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Domain.ModelingObjects.Water.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Drawing.Control, Version=10.4.0.30, Culture=neutral, PublicKeyToken=b4db808388021f6e" />
+    <Reference Include="Haestad.Framework">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.LicensingFacade">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.LicensingFacade.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Mapping, Version=10.4.0.30, Culture=neutral, PublicKeyToken=b4db808388021f6e" />
+    <Reference Include="Haestad.SQLite">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.SQLite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Support">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\Haestad.Support.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Haestad.Water.Forms, Version=10.4.0.30, Culture=neutral, PublicKeyToken=b4db808388021f6e" />
+    <Reference Include="Haestad.WaterProduct, Version=10.4.0.30, Culture=neutral, PublicKeyToken=b4db808388021f6e" />
+    <Reference Include="OpenFlows">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\OpenFlows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenFlows.Water">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\OpenFlows.Water.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenFlows.Water.Application">
+      <HintPath>C:\Program Files (x86)\Bentley\WaterGEMS\x64\OpenFlows.Water.Application.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestValveAdder.cs" />
+    <Compile Include="OpenFlowsWaterTestFixtureBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="_setup.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit">
+      <Version>3.13.2</Version>
+    </PackageReference>
+    <PackageReference Include="NUnit3TestAdapter">
+      <Version>4.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OFW.IsolationValveAdder.App\OFW.IsolationValveAdder.App.csproj">
+      <Project>{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}</Project>
+      <Name>OFW.IsolationValveAdder.App</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>cd $(ProjectDir)
+call _setup.bat "$(TargetDir)" $(PlatformName)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

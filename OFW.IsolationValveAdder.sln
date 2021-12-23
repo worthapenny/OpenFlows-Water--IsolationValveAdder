@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OFW.IsolationValveAdder.App", "OFW.IsolationValveAdder\OFW.IsolationValveAdder.App\OFW.IsolationValveAdder.App.csproj", "{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OFW.IsolationValveAdder.Test", "OFW.IsolationValveAdder\OFW.IsolationValveAdder.Test\OFW.IsolationValveAdder.Test.csproj", "{F834C273-2424-4079-BB2A-945DBCC07038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0BD8032-0240-47B1-AFA3-F4CF5E5ABCB9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Debug|x64.ActiveCfg = Debug|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Debug|x64.Build.0 = Debug|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Debug|x86.ActiveCfg = Debug|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Debug|x86.Build.0 = Debug|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Release|x64.ActiveCfg = Release|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Release|x64.Build.0 = Release|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Release|x86.ActiveCfg = Release|x64
+		{F2A97EA2-D8AD-43BA-BDB2-83CF40607809}.Release|x86.Build.0 = Release|x64
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Debug|x64.ActiveCfg = Debug|x64
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Debug|x64.Build.0 = Debug|x64
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Debug|x86.ActiveCfg = Debug|x86
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Debug|x86.Build.0 = Debug|x86
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Release|x64.ActiveCfg = Release|x64
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Release|x64.Build.0 = Release|x64
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Release|x86.ActiveCfg = Release|x86
+		{F834C273-2424-4079-BB2A-945DBCC07038}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A378F573-328B-4BCF-B627-92A275DC538F}
+	EndGlobalSection
+EndGlobal
