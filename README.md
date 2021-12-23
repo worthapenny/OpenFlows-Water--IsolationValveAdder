@@ -20,7 +20,7 @@ Once the windows loads, open up the model and adjust the criteria on the left. C
 
 >From the toolbar, Element Symbology window can be opened to change the visibility of the Isolation Valve,in case the layer is turned off.
 
-![isolation_valve_adder_form](https://github.com/worthapenny/OpenFlows-Water--ModelMerger/blob/images/isolation_valve_adder_form.png "Isolation Valve Adder Form")
+![isolation_valve_adder_form](https://github.com/worthapenny/OpenFlows-Water--IsolationValveAdder/blob/main/Images/isolation_valve_adder_form.png "Isolation Valve Adder Form")
 
 ## Other projects based on OpenFlows Water and/or WaterObjects.NET
 
